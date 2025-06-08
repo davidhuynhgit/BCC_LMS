@@ -29,7 +29,7 @@ This project explores and analyzes multiple public datasets from the **Brisbane 
 
 - **Python (Google Colab)**: Data cleaning, transformation, and integration  
 - **SQL (Planned)**: Data modeling and insight extraction
-- 
+
 ---
 
 ## ✅ Current Progress
