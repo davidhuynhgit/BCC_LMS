@@ -64,9 +64,12 @@ This project is part of a self-directed data portfolio to demonstrate practical 
 ---
 
 ## 📂 Dataset Source
-Public data sources from Brisbane City Council Open Data Portal
-Primary data source (and metadata)
+Public data sources from Brisbane City Council Open Data Portal:
+
+1. Primary data source (and metadata):
+
 https://data.brisbane.qld.gov.au/explore/dataset/library-checkouts-2024/information/
 
-Support data source:
+2. Support data source:
+
 https://data.brisbane.qld.gov.au/explore/dataset/libraries-information-location/information/
