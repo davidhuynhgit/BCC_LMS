@@ -1,0 +1,11 @@
+Heading ,Heading Explanation
+Title,Title of Item
+Author,Author of Item
+Call Number,Call Number of Item
+Item id,Unique Item Identifier
+Item Type,Type of Item (see next column)
+Status,Current Status of Item
+Language,Published language of item (if not English)
+Age,Suggested audience
+Checkout Library,Checkout branch
+Date,Checkout date
