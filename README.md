@@ -70,10 +70,6 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
 - **Branch Analysis**: Checkout activity by branch, and accessibility evaluation  
 
 ### 1. Executive overview
-<div style="text-align: center;">
-  <img src="images/ExecutiveOveview.PNG" alt="Executive Overview" width="50%">
-</div>
-
 <img src="images/ExecutiveOveview.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
 - **Borrowing peaks in March and December**  
  These months consistently recorded the highest checkout volumes. March and November aligns with the start and the end of school year, while April, July, and Octber reflects holiday season demand (mid-sem and semeter breaks). This suggests that seasonal cycles strongly influence library usage.  
