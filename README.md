@@ -71,6 +71,7 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
 
 ### 1. Executive overview
 <img src="images/ExecutiveOveview.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
+
 - **Borrowing peaks in March and December**  
  These months consistently recorded the highest checkout volumes. March and November aligns with the start and the end of school year, while April, July, and Octber reflects holiday season demand (mid-sem and semeter breaks). This suggests that seasonal cycles strongly influence library usage.  
 
@@ -79,6 +80,7 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
 
 ### 2. Collection Analysis – What Readers Borrow?
 <img src="images/CollectionAnalysis.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
+
 - **Favorite Authors**  
   *Anh Do* dominates with over 9,700 checkouts, far ahead of other popular authors like James Patterson and Jeff Kinney. This suggests there could be a relationship between writing styles and personal preferences.
   
@@ -98,6 +100,7 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
 
 ### 3. Branch Performance & Accessibility
 <img src="images/BranchAnalysis.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
+
 - **Accessibility Impact**  
   Strong positive correlation between accessibility features (car parks, wheelchair access, meeting rooms) and higher branch utilization, suggesting potential infrastructure investment.
   
