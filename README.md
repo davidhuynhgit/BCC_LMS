@@ -16,7 +16,7 @@ By the end, I built a set of dashboards that show not just numbers but patterns:
 - Perform **exploratory SQL queries** on borrowing, collections, and branches  
 - Build an **interactive Power BI dashboard** to communicate findings  
 
-## 🎯 Stakeholders  
+## 👥 Stakeholders  
 
 The insights from this project can serve different stakeholders inside and outside the library system:  
 
@@ -56,18 +56,21 @@ The SQL analysis explored a wide range of questions about borrowing and branch a
 11. How can a user search for all the books they’ve borrowed by keyword in the title?  
 12. For a given book title, which branches have it available and when was it last checked out?  
 
-👉 Full SQL script available in [`analysis.sql`](./analysis.sql).  
+👉 Full SQL script available in this repo.  
 
 
 ### Power BI Dashboard  
-The final **Power BI dashboard** provides an interactive, user-friendly view of library activity:  
 
+[Click here to interact with my dashboard 📈](https://app.powerbi.com/view?r=eyJrIjoiY2RkYjk4MWUtM2NlOS00NGM5LWE0MTktNWE4OTBkNjlhMjhiIiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9)
+
+The final **Power BI dashboard** provides an interactive, user-friendly view of library activity:  
 - **Executive Overview**: Total checkouts, distinct items, item types, and branches  
 - **Monthly Checkouts Trend**: Fluctuations across 2024, capturing seasonal borrowing behavior  
 - **Peak Hour Analysis**: Borrowing demand patterns across different hours of the day  
 - **Branch Analysis**: Checkout activity by branch, and accessibility evaluation  
 
 ### 1. Executive overview
+![](images/ExecutiveOverview.PNG)
 - **Borrowing peaks in March and December**  
  These months consistently recorded the highest checkout volumes. March and November aligns with the start and the end of school year, while April, July, and Octber reflects holiday season demand (mid-sem and semeter breaks). This suggests that seasonal cycles strongly influence library usage.  
 
@@ -75,16 +78,16 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
   Analysis of hourly checkouts shows a sharp rise starting at 8 AM, peaking between 9 AM and 12 PM. This indicates that libraries experience their busiest period in the morning, likely tied to opening hours, school visits, and routine borrowing habits.  
 
 ### 2. Collection Analysis – What Readers Borrow?
-
+![](images/CollectionAnalysis.PNG)
 - **Favorite Authors**  
   *Anh Do* dominates with over 9,700 checkouts, far ahead of other popular authors like James Patterson and Jeff Kinney. This suggests there could be a relationship between writing styles and personal preferences.
   
 - **Reader’s Favorite Items**  
-  - The *FASTBACK series* (Baby-sitters Club, The Bad Guys, Little Sister) consistently rank at the top, showing children’s fictional series drive significant borrowing activity.  
+  - The *FASTBACK series* (Baby-sitters Club, The Bad Guys, Little Sister) consistently ranks at the top, showing children’s fictional series drive significant borrowing activity.  
   - Popular magazines (*Woman’s Day, New Scientist, The New Idea*) also feature prominently, reflecting demand for short-form, regularly updated content.
   
 - **Age Group Distribution**  
-  - Borrowing is dominated by Adults (52.2%) and Juvenile (44.9%) readers, indicating that the library must balance both serious research/adult nonfiction with children’s entertainment/educational material.  
+  - Borrowing is dominated by Adult (52.2%) and Juvenile (44.9%) readers, indicating that the library must balance both serious research/adult nonfiction with children’s entertainment/educational material.  
   - Young Adult (YA) readership remains small (~3%), suggesting targeted programs could help strengthen engagement.
   
 - **Language Distribution (Non-English)**  
@@ -94,7 +97,7 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
   Picture Books (98K) and Adult Paperbacks (90K) lead borrowing volumes, confirming the importance of family and adult leisure reading, folloed by a range of diverse demand for multimedia and lifestyle content.
 
 ### 3. Branch Performance & Accessibility
-
+![](images/BranchAnalysis.PNG)
 - **Accessibility Impact**  
   Strong positive correlation between accessibility features (car parks, wheelchair access, meeting rooms) and higher branch utilization, suggesting potential infrastructure investment.
   
