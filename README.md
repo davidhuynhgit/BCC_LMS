@@ -1,13 +1,13 @@
 # Brisbane City Council Library Management System – Data Analysis Project  
 
 ## 📚 Overview  
-During my Professional Year course, my trainer - Prashant - once told me that "If you want to keep improving yourself, you need to read. Books give you the chance to step into someone else’s thoughts, learn from their experience, and expand your own perspective. Without that, he said, you’ll eventually stop moving forward." Those lines stuck with me, because it captures why libraries are so much more than shelves of paper — they are gateways to learning, imagination, and growth.  
+During my Professional Year course, my trainer, Prashant, once told me that "If you want to keep improving yourself, you need to read. Books give you the chance to step into someone else’s thoughts, learn from their experience, and expand your own perspective. Without that, he said, you’ll eventually stop moving forward." Those lines stuck with me because they capture why libraries are so much more than shelves of paper — they are gateways to learning, imagination, and growth.  
 
 This project grew out of that idea. I wanted to understand how people in Brisbane actually use their public libraries: what they borrow, when they visit, which branches are busiest, and how accessibility affects community engagement. To do that, I took raw open data from Brisbane City Council and transformed it into a story about reading behavior across the city.  
 
-The journey wasn’t smooth. Like most real-world data, the library records came with missing values, inconsistent formats, and mismatched fields that had to be cleaned and aligned before any analysis could happen. But solving those challenges was part of the point — it turned messy information into something structured and meaningful.  
+The journey wasn’t smooth. Like most real-world data, the library records came with missing values, inconsistent formats, and mismatched fields that had to be cleaned and aligned before any analysis could happen. But solving those challenges was part of the point - it turned messy information into something structured and meaningful.  
 
-By the end, I built a set of dashboards that show not just numbers but patterns: the rush of borrowing, the presence of multiple languages that reflect Brisbane’s diversity, and the way branch accessibility drives community engagement. The insights here are not just statistics — they can help guide future funding, collection planning, and service improvements so that libraries remain welcoming and relevant for everyone.  
+By the end, I built a set of dashboards that show not just numbers but patterns: the rush of borrowing, the presence of multiple languages that reflect Brisbane’s diversity, and the way branch accessibility drives community engagement. The insights here are not just statistics - they can help guide future funding, collection planning, and service improvements so that libraries remain welcoming and relevant for everyone.  
 
 
 ## 🎯 Objectives  
@@ -22,13 +22,13 @@ The insights from this project can serve different stakeholders inside and outsi
 
 - **Library management**: to evaluate branch performance, spot trends in borrowing, and plan resources such as staffing, facilities, and new branch investments.  
 - **Librarians and staff**: to understand peak times, popular items, and user behavior so they can provide better service and optimize daily operations.  
-- **City council and policymakers**: to assess community engagement, identify targeted cohorts specific attentions, and ensure equitable resource distribution.  
+- **City council and policymakers**: to assess community engagement, identify targeted cohorts with specific attention, and ensure equitable resource distribution.  
 - **Community and readers**: to benefit from improved services, better accessibility, and targeted programs that encourage the reading culture.  
 
 ## ⚙️ Tools & Technologies  
-- **Python (Google Colab)** → Data cleaning, transformation, and integration  
-- **SQL (MS SQL Server)** → Schema design, complex queries, stored procedures  
-- **Power BI** → Executive dashboards and visual storytelling  
+- **Python (Google Colab)**: Data cleaning, transformation, and integration  
+- **SQL (MS SQL Server)**: Schema design (star schema), complex queries, stored procedures  
+- **Power BI**: Executive dashboards and visual storytelling  
 
 ## 🧠 Data Challenges & Solutions  
 - **Missing Data** → Addressed gaps in branch metadata and transaction fields, applying conditional updates or exclusions where appropriate  
@@ -54,7 +54,7 @@ The SQL analysis explored a wide range of questions about borrowing and branch a
 9. How accessible is each branch when considering parking, facilities, and meeting rooms?  
 10. What are the most recent 4 quarterly checkout totals for each branch (using dynamic SQL)?  
 11. How can a user search for all the books they’ve borrowed by keyword in the title?  
-12. For a given book title, which branches have it available and when was it last checked out?  
+12. For a given book title, which branches have it available, and when was it last checked out?  
 
 👉 Full SQL script available in this repo.  
 
@@ -73,10 +73,10 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
 <img src="images/ExecutiveOveview.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
 
 - **Borrowing peaks in March and December**  
- These months consistently recorded the highest checkout volumes. March and November aligns with the start and the end of school year, while April, July, and Octber reflects holiday season demand (mid-sem and semeter breaks). This suggests that seasonal cycles strongly influence library usage.  
+ These months consistently recorded the highest checkout volumes. March and November align with the start and end of the school year, while April, July, and Octber reflect holiday season demand (mid-sem and semeter breaks). This suggests that seasonal cycles strongly influence library usage.  
 
 - **Morning hours dominate borrowing activity (9 AM – 12 PM)**  
-  Analysis of hourly checkouts shows a sharp rise starting at 8 AM, peaking between 9 AM and 12 PM. This indicates that libraries experience their busiest period in the morning, likely tied to opening hours, school visits, and routine borrowing habits.  
+  Analysis of hourly checkouts shows a sharp rise starting at 9 AM, peaking between 10 AM and 12 PM. This indicates that libraries experience their busiest period in the morning, likely tied to opening hours, school visits, and routine borrowing habits.  
 
 ### 2. Collection Analysis – What Readers Borrow?
 <img src="images/CollectionAnalysis.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
@@ -96,13 +96,13 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
   Chinese (5.1K) leads the board, followed by a mix of other languages, reflecting clear multicultural demand, and volumes outside Chinese remain relatively modest.  
   
 - **Category Preferences**  
-  Picture Books (98K) and Adult Paperbacks (90K) lead borrowing volumes, confirming the importance of family and adult leisure reading, folloed by a range of diverse demand for multimedia and lifestyle content.
+  Picture Books (98K) and Adult Paperbacks (90K) lead borrowing volumes, confirming the importance of family and adult leisure reading, followed by a range of diverse demand for multimedia and lifestyle content.
 
 ### 3. Branch Performance & Accessibility
 <img src="images/BranchAnalysis.PNG" alt="Executive Overview" width="50%" style="display: block; margin: 0 auto;">
 
 - **Accessibility Impact**  
-  Strong positive correlation between accessibility features (car parks, wheelchair access, meeting rooms) and higher branch utilization, suggesting potential infrastructure investment.
+  Significant positive correlation between accessibility features (car parks, wheelchair access, meeting rooms) and higher branch utilization, suggesting potential infrastructure investment.
   
 - **Branch Leaderboard**  
   - Chermside Library leads in checkout volumes, followed closely by Ashgrove, Sunnybank, and Indooroopilly. These branches combine high accessibility and strong local demand, making them essential hubs.  
@@ -110,7 +110,7 @@ The final **Power BI dashboard** provides an interactive, user-friendly view of 
   
 ### 4. Operational Implications
 - **Collection Management**: Increase investment in popular children’s series, picture books, and adult paperbacks while sustaining nonfiction for adults.  
-- **Community Engagement**: Develop programs/events for young aldult readers to lift engagement in this underrepresented group.  
+- **Community Engagement**: Develop programs/events for young adult readers to lift engagement in this underrepresented group.  
 - **Language Resources**: Maintain allocations for European and Asian languages to serve diverse communities.  
 - **Branch Investment**: Prioritize accessibility upgrades (car parks, wheelchair access, meeting spaces) in underperforming branches to increase usage.  
 - **Balanced Scheduling**: Borrowing activity is strong throughout the day, with mornings being peak and afternoons moderate. Afternoon coverage is still important, but resource allocation can be slightly lighter compared to mornings.
